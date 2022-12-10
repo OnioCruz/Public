@@ -1,0 +1,29 @@
+Your Estimate
+Service Type,Components,Region,Component Price,Service Price
+Amazon EC2 Service (US East (N. Virginia)),,,,$974.44
+,Compute:,US East (N. Virginia),$974.44
+Amazon S3 Service (US East (N. Virginia)),,,,$2.3
+,S3 Standard Storage:,US East (N. Virginia),$2.3
+Amazon Route 53 Service (US East (N. Virginia)),,,,$1
+,Hosted Zones:,US East (N. Virginia),$1
+Amazon CloudFront Service,,,,$10.5
+,Data Transfer Out:,Global,$8.5
+,Data Transfer Out to Origin:,Global,$2
+Amazon RDS Service (US East (N. Virginia)),,,,$130.87
+,DB instances:,US East (N. Virginia),$126.27
+,Storage:,US East (N. Virginia),$4.6
+Amazon Elastic Load Balancing (US East (N. Virginia)),,,,$32.94
+,Application LBs:,US East (N. Virginia),$16.47
+,Network LBs:,US East (N. Virginia),$16.47
+Amazon ElastiCache Service (US East (N. Virginia)),,,,$399.69
+,On-Demand Cache Nodes:,US East (N. Virginia),$399.69
+Amazon VPC Service (US East (N. Virginia)),,,,$102.48
+,VPN Connection:,US East (N. Virginia),$36.6
+,NAT Gateway,US East (N. Virginia),$65.88
+Amazon Elastic File System Service (US East (N. Virginia)),,,,$30
+,Storage:,US East (N. Virginia),$30
+,Provisioned Throughput:,US East (N. Virginia),$0
+AWS Support (Business),,,,$165.54
+,Support for all AWS services:,,$165.54
+,,Free Tier Discount:,,$-28.89
+,,Total Monthly Payment:,,$1820.87
