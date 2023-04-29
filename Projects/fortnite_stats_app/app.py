@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 api_key = '<api_key_here>'
 api = fortnite_api.FortniteAPI(api_key=api_key)
-user = 'AdrianStrongAF'
+user = '<user_name>'
 
 
 def get_stats():
