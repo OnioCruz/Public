@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortnite Stats</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>{{ stats.user }}'s Fortnite Stats</h1>
+        <div class="stats-section">
+            <div class="stat-box">
+                <h3>Overall</h3>
+                <p>Kills: {{ stats.overall.kills }}</p>
+                <p>K/D: {{ stats.overall.kd }}</p>
+                <p>Matches: {{ stats.overall.matches }}</p>
+                <p>Win Rate: {{ stats.overall.winRate }}%</p>
+            </div>
+            <div class="stat-box">
+                <h3>Solo</h3>
+                <p>Wins: {{ stats.solo.wins }}</p>
+                <p>Kills: {{ stats.solo.kills }}</p>
+                <p>K/D: {{ stats.solo.kd }}</p>
+                <p>Matches: {{ stats.solo.matches }}</p>
+                <p>Win Rate: {{ stats.solo.winRate }}%</p>
+            </div>
+            <div class="stat-box">
+                <h3>Duo</h3>
+                <p>Wins: {{ stats.duo.wins }}</p>
+                <p>Kills: {{ stats.duo.kills }}</p>
+                <p>K/D: {{ stats.duo.kd }}</p>
+                <p>Matches: {{ stats.duo.matches }}</p>
+                <p>Win Rate: {{ stats.duo.winRate }}%</p>
+            </div>
+            <div class="stat-box">
+                <h3>Squad</h3>
+                <p>Wins: {{ stats.squad.wins }}</p>
+                <p>Kills: {{ stats.squad.kills }}</p>
+                <p>K/D: {{ stats.squad.kd }}</p>
+                <p>Matches: {{ stats.squad.matches }}</p>
+                <p>Win Rate: {{ stats.squad.winRate }}%</p>
+            </div>
+            <div class="stat-box battle-pass-level">
+                <h2>Battle Pass Level</h2>
+                <p>{{ stats.battle_pass_level }}</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
