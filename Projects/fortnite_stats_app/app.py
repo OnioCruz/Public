@@ -3,7 +3,7 @@ import fortnite_api
 
 app = Flask(__name__)
 
-api_key = '44bf422b-8da8-4ca4-8603-ee69f8b5db86'
+api_key = '<api_key_here>'
 api = fortnite_api.FortniteAPI(api_key=api_key)
 user = 'AdrianStrongAF'
 
